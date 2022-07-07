@@ -11,3 +11,8 @@ We create some folders to implement the MVC design pattern:
 - ViewModels folder: for model matching with views data displaying
 - Controllers folder: for controller classes
 - wwwroot folder: for static elements such like CSS, JavaScript, or images files
+
+Deux mocks ont été ajoutés pour tester l'application créée à ce niveau.
+A ce niveeau, l'application web ou le site est encore un site web statique représentée par l'image suivante:
+
+![](staticviewOfBethanyShop.png)
