@@ -15,4 +15,4 @@ We create some folders to implement the MVC design pattern:
 Deux mocks ont été ajoutés pour tester l'application créée à ce niveau.
 A ce niveeau, l'application web ou le site est encore un site web statique représentée par l'image suivante:
 
-![](staticviewOfBethanyShop.png)
+![](BethanyPieShop/wwwroot/Images/Assets/staticviewofBethanysShop.png)
