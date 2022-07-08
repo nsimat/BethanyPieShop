@@ -23,4 +23,4 @@ After successfully creating the static web site, our goal is to build the landin
 Firstly, we seed the database by seeding a list of pies when the web application is launched. 
 Secondly, we create the landing page of the Bethany's Shop site. Here is the image illustrating the resulting page:
 
-![Landing page of Bethany's Shop site]()
+![Landing page of Bethany's Shop site](BethanyPieShop/wwwroot/Images/Assets/BethanysShopLandingPage.png)
