@@ -16,3 +16,11 @@ Two mocks repositories, MockPieRepository and MockCategoryRepository, were added
 At that point, we only got a static web site which can be illustrated by the following image:
 
 ![Static view of Bethany's Pie Shop](BethanyPieShop/wwwroot/Images/Assets/staticviewofBethanysShop.png)
+
+# Third Step
+
+After successfully creating the static web site, our goal is to build the landing page. 
+Firstly, we seed the database by seeding a list of pies when the web application is launched. 
+Secondly, we create the landing page of the Bethany's Shop site. Here is the image illustrating the resulting page:
+
+![Landing page of Bethany's Shop site]()
