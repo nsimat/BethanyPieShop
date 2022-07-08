@@ -20,7 +20,14 @@ At that point, we only got a static web site which can be illustrated by the fol
 # Third Step
 
 After successfully creating the static web site, our goal is to build the landing page. 
-Firstly, we seed the database by seeding a list of pies when the web application is launched. 
-Secondly, we create the landing page of the Bethany's Shop site. Here is the image illustrating the resulting page:
+- Firstly, we seed the database by seeding a list of pies when the web application is launched. 
+- Secondly, we create the landing page of the Bethany's Shop site.
+- Thirdly, we add a carousel to slide pies in the wecome page of the web site and we add routing and navigation. Here is the image illustrating the resulting page:
 
 ![Landing page of Bethany's Shop site](BethanyPieShop/wwwroot/Images/Assets/BethanysShopLandingPage.png)
+
+# Fourth Step
+
+- To make the web site look like an e-commerce site, we need to think of a cart. Thus, we create a shopping cart.
+- We enable session management to keep client active when navigating for ordering pies
+- Finally, we create the cart view to manage ordering from the client.
