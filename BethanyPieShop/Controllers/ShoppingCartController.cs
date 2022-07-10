@@ -17,7 +17,7 @@ namespace BethanyPieShop.Controllers
 
         public ViewResult Index()
         {
-            var items = _shoppingCart.getShoppingCartItems();
+            var items = _shoppingCart.GetShoppingCartItems();
             _shoppingCart.ShoppingCartItems = items;
 
             var shoppingCartViewModel = new ShoppingCartViewModel(_shoppingCart, _shoppingCart.GetShoppingCartTotal());

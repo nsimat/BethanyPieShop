@@ -77,7 +77,7 @@ namespace BethanyPieShop.Models
             return localAmount;
         }
 
-        public List<ShoppingCartItem> getShoppingCartItems()
+        public List<ShoppingCartItem> GetShoppingCartItems()
         {
             return ShoppingCartItems ??= _bethanysPieShopDbContext.ShoppingCartItems
                 .Where(c => c.ShoppingCartId == ShoppingCartId)
