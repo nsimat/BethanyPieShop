@@ -27,12 +27,20 @@ After successfully creating the static web site, our goal is to build the landin
 ![Landing page of Bethany's Shop site](BethanyPieShop/wwwroot/Images/Assets/BethanysShopLandingPage.png)
 
 # Fourth Step : Using ViewCompontnets and TagHelpers
-- To make our web site to look like a basic e-Shop, we have chosen to allow pies to be display according their categories. For that purpose, we added the categories item in the landing page. 
+- To make our web site to look like a basic e-Shop, we have chosen to allow pies to be display according their categories. For that purpose, we added the Shop item in the landing page to choose pies. 
+
 ![Shopping Cart for Bethany's Shop site](BethanyPieShop/wwwroot/Images/Assets/bethanycategory.png)
-- A client must have the possibility to contact the Bethany's shop for one reason or another. A contact page was then added to fullfill the goal
+
+- A client must have the possibility to contact the Bethany's shop for one reason or another. A contact page was then added to fullfill the goal.
+
 ![Shopping Cart for Bethany's Shop site](BethanyPieShop/wwwroot/Images/Assets/bethanycontact.png)
+
 - One feature of an e-commerce site is the possibility to use an shopping cart for choosing pies, we need to think of a cart. Then, we create the cart view to manage ordering from the client (by using ViewComponent).
 
 ![Shopping Cart for Bethany's Shop site](BethanyPieShop/wwwroot/Images/Assets/bethanyshoppingcart.png)
+
 - Finally, we enable session management to keep client active when navigating when ordering pies.
+
+# Fifth Step: Using form for model binding, validation, and ordering
+
 
