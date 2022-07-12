@@ -41,5 +41,7 @@ After successfully creating the static web site, our goal is to build the landin
 - Finally, we enable session management to keep client active when navigating when ordering pies.
 
 # Fifth Step: Using form for model binding, validation, and ordering
+- Having the shopping cart, the goal of this step is to add support for order creation 
+- The client must have the ability to create an order form and also to navigate to the order form
 
 
