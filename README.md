@@ -29,5 +29,7 @@ After successfully creating the static web site, our goal is to build the landin
 # Fourth Step
 
 - To make the web site look like an e-commerce site, we need to think of a cart. Thus, we create a shopping cart.
+
+![Shopping Cart for Bethany's Shop site]()
 - We enable session management to keep client active when navigating for ordering pies
 - Finally, we create the cart view to manage ordering from the client.
