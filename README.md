@@ -4,7 +4,7 @@ BethanyPieShop is a project to build an online store with ASP.NET Core 6, Razor 
 # First Step : Creating an empty project
 We begin by creating an empty ASP.NET Core MVC project. 
 
-# Second Step : Adding folders, controllers, and using partial views
+# Second Step : Adding folders for models, controllers, and views
 We create some folders to implement the MVC design pattern:
 - Models folder: for model classes
 - Views folder: for views files
@@ -18,7 +18,6 @@ At that point, we only got a static web site which can be illustrated by the fol
 ![Static view of Bethany's Pie Shop](BethanyPieShop/wwwroot/Images/Assets/staticviewofBethanysShop.png)
 
 # Third Step : Seeding initial database with Entity Framework and using Bootstrap 5
-
 After successfully creating the static web site, our goal is to build the landing page. 
 - Firstly, we seed the database by seeding a list of pies when the web application is launched. 
 - Secondly, we create the landing page of the Bethany's Shop site.
