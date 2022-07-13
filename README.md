@@ -1,10 +1,10 @@
 # BethanyPieShop
 BethanyPieShop is a project to build an online store with ASP.NET Core 6, Razor pages, Blazor, Unit Testing, Entity Framework Core 6, and Web APIs.
 
-# First Step
+# First Step : Creating an empty project
 We begin by creating an empty ASP.NET Core MVC project. 
 
-# Second Step
+# Second Step : Adding folders for models, controllers, and views
 We create some folders to implement the MVC design pattern:
 - Models folder: for model classes
 - Views folder: for views files
@@ -17,8 +17,7 @@ At that point, we only got a static web site which can be illustrated by the fol
 
 ![Static view of Bethany's Pie Shop](BethanyPieShop/wwwroot/Images/Assets/staticviewofBethanysShop.png)
 
-# Third Step
-
+# Third Step : Seeding initial database with Entity Framework and using Bootstrap 5
 After successfully creating the static web site, our goal is to build the landing page. 
 - Firstly, we seed the database by seeding a list of pies when the web application is launched. 
 - Secondly, we create the landing page of the Bethany's Shop site.
@@ -26,8 +25,23 @@ After successfully creating the static web site, our goal is to build the landin
 
 ![Landing page of Bethany's Shop site](BethanyPieShop/wwwroot/Images/Assets/BethanysShopLandingPage.png)
 
-# Fourth Step
+# Fourth Step : Using ViewCompontnets and TagHelpers
+- To make our web site to look like a basic e-Shop, we have chosen to allow pies to be display according their categories. For that purpose, we added the Shop item in the landing page to choose pies. 
 
-- To make the web site look like an e-commerce site, we need to think of a cart. Thus, we create a shopping cart.
-- We enable session management to keep client active when navigating for ordering pies
-- Finally, we create the cart view to manage ordering from the client.
+![Shopping Cart for Bethany's Shop site](BethanyPieShop/wwwroot/Images/Assets/bethanycategory.png)
+
+- A client must have the possibility to contact the Bethany's shop for one reason or another. A contact page was then added to fullfill the goal.
+
+![Shopping Cart for Bethany's Shop site](BethanyPieShop/wwwroot/Images/Assets/bethanycontact.png)
+
+- One feature of an e-commerce site is the possibility to use an shopping cart for choosing pies, we need to think of a cart. Then, we create the cart view to manage ordering from the client (by using ViewComponent).
+
+![Shopping Cart for Bethany's Shop site](BethanyPieShop/wwwroot/Images/Assets/bethanyshoppingcart.png)
+
+- Finally, we enable session management to keep client active when navigating when ordering pies.
+
+# Fifth Step: Using form for model binding, validation, and ordering
+- Having the shopping cart, the goal of this step is to add support for order creation 
+- The client must have the ability to create an order form and also to navigate to the order form
+
+
