@@ -4,6 +4,8 @@
     <h3 class="my-5">
         You're just one step away from your delicious pies.
     </h3>
+    
+    <div asp-validation-summary="All" class="text-danger"></div>
 
     <div class="col-6">
         <div class="col-12">
@@ -29,29 +31,33 @@
             <input asp-for="AddressLine2" class="form-control" />
             <span asp-validation-for="AddressLine2" class="text-danger"></span>
         </div>
+        
+        <div class="row">
+            <div class="col-6">
+                <label asp-for="City" class="form-label"></label>
+                <input asp-for="City" class="form-control" />
+                <span asp-validation-for="City" class="text-danger"></span>
+            </div>
 
-        <div class="col-6">
-            <label asp-for="City" class="form-label"></label>
-            <input asp-for="City" class="form-control" />
-            <span asp-validation-for="City" class="text-danger"></span>
+            <div class="col-6">
+                <label asp-for="State" class="form-label"></label>
+                <input asp-for="State" class="form-control" />
+                <span asp-validation-for="State" class="text-danger"></span>
+            </div>
         </div>
 
-        <div class="col-6">
-            <label asp-for="State" class="form-label"></label>
-            <input asp-for="State" class="form-control" />
-            <span asp-validation-for="State" class="text-danger"></span>
-        </div>
+        <div class="row">
+            <div class="col-6">
+                <label asp-for="ZipCode" class="form-label"></label>
+                <input asp-for="ZipCode" class="form-control" />
+                <span asp-validation-for="ZipCode" class="text-danger"></span>
+            </div>
 
-        <div class="col-6">
-            <label asp-for="ZipCode" class="form-label"></label>
-            <input asp-for="ZipCode" class="form-control" />
-            <span asp-validation-for="ZipCode" class="text-danger"></span>
-        </div>
-
-        <div class="col-6">
-            <label asp-for="Country" class="form-label"></label>
-            <input asp-for="Country" class="form-control" />
-            <span asp-validation-for="Country" class="text-danger"></span>
+            <div class="col-6">
+                <label asp-for="Country" class="form-label"></label>
+                <input asp-for="Country" class="form-control" />
+                <span asp-validation-for="Country" class="text-danger"></span>
+            </div>
         </div>
 
         <div class="col-12">
