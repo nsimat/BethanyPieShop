@@ -56,7 +56,11 @@ After successfully creating the static web site, our goal is to build the landin
 
 # Sixth Step: Adding unit tests to the application development
 - In this, we choose to focus on units testing components of the web application we are building.
-- We will use units testing
+- We will use units testing. Specially, we will focus on controller and TagHelpers.
+- We begin by creating an empty testing project.
+- Then We write tests for PieController and EmailTagHelper. The following image can illustrate our testing resqults:
+
+![Testing results of Bethany's Shop web application]()
 
 
 
