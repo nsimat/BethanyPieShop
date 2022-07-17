@@ -43,5 +43,21 @@ After successfully creating the static web site, our goal is to build the landin
 # Fifth Step: Using form for model binding, validation, and ordering
 - Having the shopping cart, the goal of this step is to add support for order creation 
 - The client must have the ability to create an order form and also to navigate to the order form
+- We change the checkout page to create an order form:
+
+![Checkout page for Bethany's shop site](BethanyPieShop/wwwroot/Images/Assets/bethanyshoppingcartwithbutton.png)
+
+- Then, for creating an order, we land on the order form page: 
+![Order form for Bethany's shop site](BethanyPieShop/wwwroot/Images/Assets/bethanycheckoutform.png)
+
+- We never forget the validation from the two sides, the client side and the server side:
+
+![Validation page for the Bethany's shop site](BethanyPieShop/wwwroot/Images/Assets/bethanyformvalidation.png)
+
+# Sixth Step: Adding unit tests to the application development
+- In this, we choose to focus on units testing components of the web application we are building.
+- We will use units testing
+
+
 
 
