@@ -55,6 +55,8 @@ After successfully creating the static web site, our goal is to build the landin
 ![Validation page for the Bethany's shop site](BethanyPieShop/wwwroot/Images/Assets/bethanyformvalidation.png)
 
 # Sixth Step: Adding unit tests to the application development
+- In this, we choose to focus on units testing components of the web application we are building.
+- We will use units testing
 
 
 
