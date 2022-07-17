@@ -60,7 +60,7 @@ After successfully creating the static web site, our goal is to build the landin
 - We begin by creating an empty testing project.
 - Then We write tests for PieController and EmailTagHelper. The following image can illustrate our testing resqults:
 
-![Testing results of Bethany's Shop web application]()
+![Testing results of Bethany's Shop web application](BethanyPieShop/wwwroot/Images/Assets/bethanypieshoptests.png)
 
 
 
