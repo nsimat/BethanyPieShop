@@ -62,6 +62,8 @@ After successfully creating the static web site, our goal is to build the landin
 
 ![Testing results of Bethany's Shop web application](BethanyPieShop/wwwroot/Images/Assets/bethanypieshoptests.png)
 
-
+# Seventh Step: Adding a search page on the web site
+- At this step, our goal is to add a searching page to help client find pies using some items.
+- 
 
 
