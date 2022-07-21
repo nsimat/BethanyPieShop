@@ -1,10 +1,10 @@
-# BethanyPieShop
+# Bethany's Pie Shop - Building a e-commerce web site to buy pies online 
 BethanyPieShop is a project to build an online store with ASP.NET Core 6, Razor pages, Blazor, Unit Testing, Entity Framework Core 6, and Web APIs.
 
-# First Step : Creating an empty project
+## First Step : Creating an empty project
 We begin by creating an empty ASP.NET Core MVC project. 
 
-# Second Step : Adding folders for models, controllers, and views
+## Second Step : Adding folders for models, controllers, and views
 We create some folders to implement the MVC design pattern:
 - Models folder: for model classes
 - Views folder: for views files
@@ -17,7 +17,7 @@ At that point, we only got a static web site which can be illustrated by the fol
 
 ![Static view of Bethany's Pie Shop](BethanyPieShop/wwwroot/Images/Assets/staticviewofBethanysShop.png)
 
-# Third Step : Seeding initial database with Entity Framework and using Bootstrap 5
+## Third Step : Seeding initial database with Entity Framework and using Bootstrap 5
 After successfully creating the static web site, our goal is to build the landing page. 
 - Firstly, we seed the database by seeding a list of pies when the web application is launched. 
 - Secondly, we create the landing page of the Bethany's Shop site.
@@ -25,7 +25,7 @@ After successfully creating the static web site, our goal is to build the landin
 
 ![Landing page of Bethany's Shop site](BethanyPieShop/wwwroot/Images/Assets/BethanysShopLandingPage.png)
 
-# Fourth Step : Using ViewCompontnets and TagHelpers
+## Fourth Step : Using ViewCompontnets and TagHelpers
 - To make our web site to look like a basic e-Shop, we have chosen to allow pies to be display according their categories. For that purpose, we added the Shop item in the landing page to choose pies. 
 
 ![Shopping Cart for Bethany's Shop site](BethanyPieShop/wwwroot/Images/Assets/bethanycategory.png)
@@ -41,7 +41,7 @@ After successfully creating the static web site, our goal is to build the landin
 
 - Finally, we enable session management to keep client active when navigating when ordering pies.
 
-# Fifth Step: Using form for model binding, validation, and ordering
+## Fifth Step: Using form for model binding, validation, and ordering
 - Having the shopping cart, the goal of this step is to add support for order creation 
 - The client must have the ability to create an order form and also to navigate to the order form
 - We change the checkout page to create an order form:
@@ -55,7 +55,7 @@ After successfully creating the static web site, our goal is to build the landin
 
 ![Validation page for the Bethany's shop site](BethanyPieShop/wwwroot/Images/Assets/bethanyformvalidation.png)
 
-# Sixth Step: Adding unit tests to the application development
+## Sixth Step: Adding unit tests to the application development
 - In this, we choose to focus on units testing components of the web application we are building.
 - We will use units testing. Specially, we will focus on controller and TagHelpers.
 - We begin by creating an empty testing project.
@@ -63,7 +63,7 @@ After successfully creating the static web site, our goal is to build the landin
 
 ![Testing results of Bethany's Shop web application](BethanyPieShop/wwwroot/Images/Assets/bethanypieshoptests.png)
 
-# Seventh Step: Adding a search page on the web site
+## Seventh Step: Adding a search page on the web site
 - At this step, our goal is to add a searching page to help client find pies using some items.
 - 
 
