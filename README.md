@@ -31,6 +31,7 @@ After successfully creating the static web site, our goal is to build the landin
 ![Shopping Cart for Bethany's Shop site](BethanyPieShop/wwwroot/Images/Assets/bethanycategory.png)
 
 - A client must have the possibility to contact the Bethany's shop for one reason or another. A contact page was then added to fullfill the goal.
+- We begin by creating a searching REST API
 
 ![Shopping Cart for Bethany's Shop site](BethanyPieShop/wwwroot/Images/Assets/bethanycontact.png)
 
