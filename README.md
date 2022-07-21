@@ -1,4 +1,5 @@
 # Bethany's Pie Shop - An e-commerce web site for online pies selling 
+This repository contains the source code of the Bethany's Pie Shop. The Bethany's Pies Shop is based on an ASP.NET Core course taken from pluralsight by Gill Cleeren. 
 BethanyPieShop is a project to build an online store with ASP.NET Core 6, Razor pages, Blazor, Unit Testing, Entity Framework Core 6, and Web APIs.
 
 ## First Step : Creating an empty project
