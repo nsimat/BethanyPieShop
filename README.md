@@ -1,4 +1,4 @@
-# Bethany's Pie Shop - Building a e-commerce web site to buy pies online 
+# Bethany's Pie Shop - An e-commerce web site for online pies selling 
 BethanyPieShop is a project to build an online store with ASP.NET Core 6, Razor pages, Blazor, Unit Testing, Entity Framework Core 6, and Web APIs.
 
 ## First Step : Creating an empty project
