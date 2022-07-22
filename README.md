@@ -66,6 +66,9 @@ After successfully creating the static web site, our goal is to build the landin
 
 ## Seventh Step: Adding a search page on the web site
 - At this step, our goal is to add a searching page to help client find pies using some items.
-- 
+- In ASP.NET Core, it's possible to create a searching page using either Javascript, specially jQuery and AJAX, or Blazor.
+- We first create the REST API for searching Pies
+- Then we create the searching page using jQuery and AJAX. This image below shows how the web site looks like when using "apple" as a query string:
 
+![Searching results on Bethany's Shop web application for apple]()
 
