@@ -70,5 +70,5 @@ After successfully creating the static web site, our goal is to build the landin
 - We first create the REST API for searching Pies
 - Then we create the searching page using jQuery and AJAX. This image below shows how the web site looks like when using "apple" as a query string:
 
-![Searching results on Bethany's Shop web application for apple]()
+![Searching results on Bethany's Shop web application for apple](BethanyPieShop/wwwroot/Images/Assets/bethanysearchingjquery.png)
 
