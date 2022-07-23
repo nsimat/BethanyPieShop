@@ -72,3 +72,12 @@ After successfully creating the static web site, our goal is to build the landin
 
 ![Searching results on Bethany's Shop web application for apple](BethanyPieShop/wwwroot/Images/Assets/bethanysearchingjquery.png)
 
+- The searching case can also be handeled by using Blazor. The following illustration shows how the searching page looks like when using Blazor:
+
+![Searching results on Bethany's Shop web application for apple](BethanyPieShop/wwwroot/Images/Assets/bethanysearchingblazor.png)
+
+## Eighth Step: Bringing authorization and authentication in the game
+- The first thing to do here is to install the ASP.NET Core Identity Nuget in the BethanyShop project.
+- Next, we implement the authentication
+- Finally, we implement the authorization
+
