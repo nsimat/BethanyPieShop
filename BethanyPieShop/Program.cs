@@ -26,6 +26,8 @@ builder.Services.AddControllersWithViews().AddJsonOptions(options =>
 
 builder.Services.AddRazorPages();
 
+builder.Services.AddServerSideBlazor();
+
 var app = builder.Build();
 
 app.UseStaticFiles();
@@ -40,6 +42,9 @@ if (app.Environment.IsDevelopment())
 
 app.MapDefaultControllerRoute();
 app.MapRazorPages();
+
+app.MapBlazorHub();
+app.MapFallbackToPage("/app/{*catchall}", "/App/Index");
 
 DbInitializer.SeedData(app);
 
