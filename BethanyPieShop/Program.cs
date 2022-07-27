@@ -1,8 +1,11 @@
 using BethanyPieShop.Models;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using System.Text.Json.Serialization;
 
 var builder = WebApplication.CreateBuilder(args);
+var connectionString = builder.Configuration.GetConnectionString("BethanysPieShopDbCtxConnection")
+                       ?? throw new InvalidOperationException("Connection string 'BethanysPieShopDbCtxConnection' not found.");
 
 //Registering repositories for Dependency Injection
 builder.Services.AddScoped<ICategoryRepository, CategoryRepository>();
@@ -15,9 +18,11 @@ builder.Services.AddHttpContextAccessor();
 
 builder.Services.AddDbContext<BethanysPieShopDbContext>(opts =>
 {
-    opts.UseSqlServer(builder.Configuration["ConnectionStrings:BethanysPieShopDbCtxConnection"]);
+    opts.UseSqlServer(connectionString);
     opts.EnableSensitiveDataLogging(true);
 });
+
+builder.Services.AddDefaultIdentity<IdentityUser>().AddEntityFrameworkStores<BethanysPieShopDbContext>();
 
 builder.Services.AddControllersWithViews().AddJsonOptions(options =>
 {
@@ -34,6 +39,11 @@ app.UseStaticFiles();
 
 //Bringing support for session
 app.UseSession();
+
+//Bringing support for authentication and authorization
+app.UseAuthentication();
+app.UseAuthorization();
+
 
 if (app.Environment.IsDevelopment())
 {
