@@ -11733,6 +11733,8 @@ textarea.form-control-lg {
 body {
     padding-top: 85px;
     font-family: "Work Sans", sans-serif;
+    /* Margin bottom by footer height */
+    margin-bottom: 20px;
 }
 
 h1, .h1 {
@@ -11864,4 +11866,39 @@ h6, .h6 {
 
 .form-label {
     text-transform: uppercase;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+    position: relative;
+}
+
+body {
+    /* Margin bottom by footer height */
+    margin-bottom: 20px;
+}
+
+footer {
+    background: #b06442;
+    color: #e6e4e4;
+    padding: 25px 0;
+    width: 100%;
+}
+
+    footer a, footer a:visited {
+        color: #a5c7ec;
+    }
+
+@media (min-width: 768px) {
+    body {
+        /* Margin bottom by footer height */
+        margin-bottom: 250px;
+    }
+
+    footer {
+        position: absolute;
+        padding: 10px 0;
+        bottom: 0;
+    }
 }
