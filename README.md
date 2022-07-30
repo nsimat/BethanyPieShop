@@ -76,8 +76,13 @@ After successfully creating the static web site, our goal is to build the landin
 
 ![Searching results on Bethany's Shop web application for apple](BethanyPieShop/wwwroot/Images/Assets/bethanysearchingblazor.png)
 
-## Eighth Step: Bringing authorization and authentication in the game
-- The first thing to do here is to install the ASP.NET Core Identity Nuget in the BethanyShop project.
-- Next, we implement the authentication
-- Finally, we implement the authorization
+## Eighth Step: Bringing authentication and authorization in the game
+- The main goal in this step is adding the identity to the application. To do that, we first install install the ASP.NET Core Identity Nuget in the BethanyShop project.
+- Next, we add the authentication to the application to allow the user to register and login:
+ 
+![Registering user on Bethany's Shop web application](BethanyPieShop/wwwroot/Images/Assets/bethanyshopuserregister.png)
+
+- Finally, to avoid a non-authenticated user to order a pie, we add the authorization for checking out pies to order:
+
+![User login on Bethany's Shop web application](BethanyPieShop/wwwroot/Images/Assets/bethanyshoplogin.png)
 
