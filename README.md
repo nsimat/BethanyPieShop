@@ -78,11 +78,14 @@ After successfully creating the static web site, our goal is to build the landin
 
 ## Eighth Step: Bringing authentication and authorization in the game
 - The main goal in this step is adding the identity to the application. To do that, we first install install the ASP.NET Core Identity Nuget in the BethanyShop project.
-- Next, we add the authentication to the application to allow the user to register and login:
+- Next, we add the authentication to the application to allow the user to register:
  
 ![Registering user on Bethany's Shop web application](BethanyPieShop/wwwroot/Images/Assets/bethanyshopuserregister.png)
 
-- Finally, to avoid a non-authenticated user to order a pie, we add the authorization for checking out pies to order:
+- Finally, to avoid a non-authenticated user to order a pie, we add the authorization for checking out pies to order. A client must login before checking out:
 
 ![User login on Bethany's Shop web application](BethanyPieShop/wwwroot/Images/Assets/bethanyshoplogin.png)
+
+## Nine Step: Adding a footer to the application
+- We made a constat that there is no footer on the web application. So, we find it a good practice to add a footer 
 
